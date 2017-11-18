@@ -47,25 +47,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">EPO</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">Jäseneksi</a>
-                    </li>
-                    <!--
-                    <li>
-                        <a class="page-scroll" href="#services">joitain</a>
-                    </li>
-                    -->
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Osuuskunta</a>
+                        <a href="jaseneksi2.html">Jäseneksi</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Yhteystiedot</a>
+                        <a href="toiminta.html">Toiminta</a>
+                    </li>
+                    <li>
+                        <a href="hallitus.html">Hallitus</a>
+                    </li>
+                    <li>
+                        <a href="yhteystiedot.html">Yhteystiedot?</a>
                     </li>
                 </ul>
             </div>
@@ -73,30 +71,44 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+<!--
     <header>
+
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>Tähän joku</h1>
                 <hr>
-                <p>Truha kuva</p>
+                <p>Truha kuva, t</p>
             </div>
         </div>
+
     </header>
 
-
+ -->
+    <div class="container-fluid">
+   <div class="row">
+	<img src="img/1624x700.png" class="img-responsive">
+   </div>
+</div>
 
     <section id="testilomake">
         <div class="container">
-            <div class="row">
+            <!--<div class="row">-->
+            <form method="post" action="">
+                <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>Tähän jotainh roskaa siitä kuinka jäsenyys on hyvä juttu</p>
+
                     <p>EPOn ainaisjäsenmaksu on 10 €. Jäseneksi liittyminen hoituu täyttämällä jäsenhakemus kotisivujemme kautta. Huomioithan, että hyväksymme uudet hakemukset hallituksen kokouksessa, joita järjestetään noin kuukauden välein. Sinut voidaan hyväksyä jäseneksi, kun jäsenhakemuksesi on saapunut ja jäsenmaksusi näkyy tilillä kokouspäivänä. Tästä johtuen hyväksymisessä voi ilmetä viivettä. Seuraa sähköpostiasi, olemme yhteydessä sinuun heti hyväksymisen jälkeen!</p>
                     <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                     <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                     <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
                     <!--<form name="sentMessage" id="contactForm" novalidate>-->
-                    <form method="post" action="">
-                    <input type="hidden" name="recipient" value="d9ccc0f07f66b462e550526a994c08a2xx">
+                <input type="hidden" name="recipient" value="d9ccc0f07f66b462e550526a994c08a2xx">
+                </div>
+
+                </div>
+
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Etunimet</label>
@@ -186,8 +198,8 @@
 
                         <div class="row control-group">
                             <div class="form-group col-xs-12 controls">
-                                <label for="suoramarkkinointi">Ei suoramarkkinointiin</label>
-                                <input type="checkbox" id="Suoramarkkinointi" name="Suoramarkkinointi" value="Ei"> <label for="Suoramarkkinointi"></label>
+                                <label for="Suoramarkkinointi">Ei suoramarkkinointiin</label>
+                                <input type="checkbox" id="Suoramarkkinointi" name="Suoramarkkinointi" value="Ei">
                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -198,12 +210,13 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-default">No lol</button>
+                                <button type="submit" class="btn btn-default btn-xl">No lol</button>
                             </div>
                         </div>
-                    </form>
-                </div>
-            </div>
+
+
+            </form>
+            <!--</div>-->
         </div>
     </section>
 
